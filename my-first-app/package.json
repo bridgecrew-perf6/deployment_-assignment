@@ -13,7 +13,7 @@
     "url": "^0.11.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://loisiling.github.io/deployment-assignment",
+  "homepage": "https://loisiling.github.io/deployment_-assignment/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

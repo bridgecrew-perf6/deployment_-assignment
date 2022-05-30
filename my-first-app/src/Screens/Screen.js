@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import API from "../Components/API";
+import config from "../Config/Config";
 
 const Screens = () => {
 
@@ -33,6 +34,7 @@ const Screens = () => {
                 Input your query data time in the form of "YYYY-MM-DD[T]HH:mm:ss (SGT)" <input type="text" value={input} onChange={handleInput}></input>
                 <button type="submit">Submit</button>
             </form>
+            <div>BaseURL: {config.baseURL}</div>
             <h3> Results: </h3>
             <ul>
                 {output.map((item)=>{
